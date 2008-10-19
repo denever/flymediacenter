@@ -6,7 +6,7 @@ LH_BINARY_FILESYSTEM="fat16"
 
 # $LH_BINARY_IMAGES: set image type
 # (Default: iso)
-LH_BINARY_IMAGES="iso"
+LH_BINARY_IMAGES="usb-hdd"
 
 # $LH_BINARY_INDICES: set apt/aptitude generic indices
 # (Default: enabled)
@@ -55,11 +55,11 @@ LH_GRUB_SPLASH=""
 
 # $LH_HOSTNAME: set hostname
 # (Default: debian)
-LH_HOSTNAME="debian"
+LH_HOSTNAME="flymediacenter"
 
 # $LH_ISO_APPLICATION: set iso author
 # (Default: Debian Live)
-LH_ISO_APPLICATION="Debian Live"
+LH_ISO_APPLICATION="Debian Live Flybook Media Center"
 
 # $LH_ISO_PREPARER: set iso preparer
 # (Default: live-helper $VERSION; http://packages.qa.debian.org/live-helper)
@@ -127,7 +127,7 @@ LH_SYSLINUX_SPLASH=""
 
 # $LH_SYSLINUX_TIMEOUT: set custom syslinux timeout in seconds
 # (Default: 0)
-LH_SYSLINUX_TIMEOUT="0"
+LH_SYSLINUX_TIMEOUT="10"
 
 # $LH_SYSLINUX_CFG: set custom syslinux configuration file
 # (Default: empty)
@@ -151,4 +151,4 @@ LH_SYSLINUX_MENU_MEMTEST_ENTRY="Memory test"
 
 # $LH_USERNAME: set username
 # (Default: user)
-LH_USERNAME="user"
+LH_USERNAME="mediauser"
