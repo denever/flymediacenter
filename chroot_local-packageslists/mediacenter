@@ -1,0 +1,8 @@
+#include <standard-x11>
+#include <fglrx>
+#include <touchscreen>
+#include <openbox>
+#include <elisa>
+#include <network-tools>
+#include <console-tools>
+#include <wireless-tools>
